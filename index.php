@@ -45,7 +45,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary">Sign Up</button>
-            <a href="login.php" class="link-alert-secondary ">Login</a>
+            <a href="App/login.php" class="link-alert-secondary ">Login</a>
         </form>
     </div>
 </body>

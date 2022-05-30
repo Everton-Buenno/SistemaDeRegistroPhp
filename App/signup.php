@@ -27,6 +27,9 @@ if (
         exit;
     } else {
 
+
+        $pass = password_hash($pass, PASSWORD_DEFAULT);
+
         $sql = "INSERT INTO usuarios (name, username, password)
                 VALUES(?,?,?)";
         $stmt = $conn->prepare($sql);

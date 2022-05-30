@@ -22,8 +22,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['name'])) {
     <body>
         <div class="d-flex justify-content-center align-items-center vh-100">
 
-            <div class="shadow w-450 p-3">
-                <h3>Bem-vindo! <?= $_SESSION['name'] ?></h3>
+            <div class="shadow w-450 p-3 text-center">
+                <h3 class="display-4 ">Bem-vindo!, <?= $_SESSION['name'] ?></h3>
+                <a href="logout.php" class="btn btn-warning">Logout</a>
             </div>
         </div>
     </body>
